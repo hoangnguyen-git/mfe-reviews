@@ -10,9 +10,10 @@ const devConfig = {
       template: './public/index.html'
     })  
   ],
-  entry: ['./src/index.js'],
+  // entry: ['./src/index.js'],
   entry: {
-    cart: './src/index.js'
+    review: './src/index.js',
+    reviewWithContainer: './src/indexWithContainer.js'
   },
   output: {
     filename: '[name].bundle.js',
